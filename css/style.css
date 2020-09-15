@@ -132,11 +132,12 @@ p {
 	float: right;
 }
 
-.portfolio {
+.portfolio div {
 	background: #fff;
-}
-
-min-height: 400px;
+	float: left;
+  	width: 50%;
+  	min-height: 400px;
+	}
 }
 
 @media (min-width: 1024px) {
@@ -161,10 +162,11 @@ h1 {
   .top-nav {
     text-align: right;
   }
-
-  .portfolio {
+  
+  .portfolio div {
 	width: 33.333%;
   }
+
 }
 	/* ---- Float clearfix ---- */
 
