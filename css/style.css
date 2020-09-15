@@ -89,7 +89,7 @@ p {
 .contentinfo{
 	background: #d9e4ea;
 	padding: 2em 0;
-	margin-top. 30px;
+	margin-top: 30px;
 }
 
 .contact-info {
@@ -165,7 +165,7 @@ p {
     width: 50%;
     float: right;
  }
-
+}
 
 @media (min-width: 1024px) {
 	.main-header,
@@ -189,7 +189,7 @@ h1 {
   .top-nav {
     text-align: right;
   }
-}
+
 .marketing {
     width: 33%;
     float: left;
@@ -219,7 +219,7 @@ h1 {
     width: 33%;
     float: right;
  }
-
+}
 	/* ---- Float clearfix ---- */
 
 	.clearfix::after {
