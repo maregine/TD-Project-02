@@ -20,9 +20,9 @@ p {
 	color: darkslategrey;
 }
 
-h1 {
-	font-size: 1.25em;
-	font-family: 'Playfair';
+h1 a {
+	font-size: 1em;
+	color: darkslategrey;
 }
 
 h2,
@@ -62,15 +62,18 @@ p {
 /* ---- Navigation ---- */
 
 
-.main-nav a {
-	font-size: .95em;
-	color: darkslategrey;
+.top-nav {
+	margin-top: 30px;
+  }
+  
+  .top-nav li {
+	padding: 10px 0;
+	margin: 5px auto;
+  }
+  
+  .top-nav a {
 	text-transform: uppercase;
-}
-
-.main-nav a:hover {
-	color: orange;
-}
+  }
 
 /* ---- Header ---- */
 
@@ -86,15 +89,19 @@ p {
 
 /* ---- Footer ---- */
 
-.contentinfo{
+.contact-info {
+	margin-top: 50px;
+	padding: 0;
+}
+
+.footer-nav {
 	background: #d9e4ea;
 	padding: 2em 0;
 	margin-top: 30px;
 }
-
-.contact-info {
-	margin-top: 50px;
-}
+.footer-nav, .footer-nav li {
+	width: 100%;
+  }
 
 .footer-nav a {
 	font-size: .95em;
@@ -162,7 +169,7 @@ h1 {
   .top-nav {
     text-align: right;
   }
-  
+
   .portfolio div {
 	width: 33.333%;
   }
