@@ -136,35 +136,7 @@ p {
 	background: #fff;
 }
 
-.marketing {
-    width: 50%;
-    float: left;
- }
-
- .search {
-    width: 50%;
-    float: right;
- }
-
- .travel {
-    width: 50%;
-    float: left;
- }
-
- .map {
-    width: 50%;
-    float: right;
- }
-
- .gallery {
-    width: 50%;
-    float: left;
- }
-
- .calculator {
-    width: 50%;
-    float: right;
- }
+min-height: 400px;
 }
 
 @media (min-width: 1024px) {
@@ -190,35 +162,9 @@ h1 {
     text-align: right;
   }
 
-.marketing {
-    width: 33%;
-    float: left;
- }
-
- .search {
-    width: 33%;
-    float: right;
- }
-
- .travel {
-    width: 33%;
-    float: left;
- }
-
- .map {
-    width: 33%;
-    float: right;
- }
-
- .gallery {
-    width: 33%;
-    float: left;
- }
-
- .calculator {
-    width: 33%;
-    float: right;
- }
+  .portfolio {
+	width: 33.333%;
+  }
 }
 	/* ---- Float clearfix ---- */
 
