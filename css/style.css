@@ -135,6 +135,8 @@ p {
 }
 
 
+
+
 /* ================================= 
   Media Queries
 ==================================== */
@@ -189,6 +191,10 @@ h1 {
   .portfolio div {
 	width: 33.333%;
   }
+
+.mobile-link {
+	display: none;
+}
 
 }
 	/* ---- Float clearfix ---- */
