@@ -98,6 +98,16 @@ p {
 	margin-top: 50px;
 }
 
+.footer-nav a {
+	font-size: .95em;
+	color: darkslategrey;
+	text-transform: uppercase;
+}
+
+.footer-nav a:hover {
+	color: lightskyblue;
+}
+
 .portfolio {
 	background: #fff;
 	padding-top: 50px;
@@ -212,5 +222,3 @@ p {
 		display: table;
 		clear: both;
 	}
-
-}
