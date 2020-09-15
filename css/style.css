@@ -94,11 +94,6 @@ p {
 	padding: 0;
 }
 
-.footer-nav {
-	background: #d9e4ea;
-	margin-top: 50px;
-}
-
 .footer-nav h2 {
 	float: left;
 	height: 12px;
@@ -107,6 +102,7 @@ p {
   ​
 .footer-nav li {
 	display: inline-block;
+	margin-right: 20px;
 }
 
 .footer-nav ul {
@@ -125,6 +121,11 @@ p {
 
 .footer-nav a:hover {
 	color: lightskyblue;
+}
+
+.footer-nav {
+	background: #d9e4ea;
+	margin-top: 50px;
 }
 
 .portfolio {
