@@ -23,7 +23,6 @@ p {
 h1 {
 	font-size: 1.25em;
 	font-family: 'Playfair';
-	float: left;
 }
 
 h2,
@@ -120,8 +119,8 @@ p {
 @media (min-width: 768px) {
 	.main-header,
 	.name,
-	.main-nav,
-	.main-nav li {
+	.top-nav,
+	.top-nav li {
 	display: inline-block;
 	border: none;
 	padding: 5px 5px;
@@ -129,7 +128,7 @@ p {
 	text-align: center;
 }
 
-.main-nav {
+.top-nav {
 	float: right;
 }
 
@@ -171,8 +170,8 @@ p {
 @media (min-width: 1024px) {
 	.main-header,
 	.name,
-	.main-nav,
-	.main-nav li {
+	.top-nav,
+	.top-nav li {
 	display: inline-block;
 	border: none;
 	padding: 5px 5px;
@@ -180,10 +179,17 @@ p {
 	text-align: center;
 }
 
-.main-nav {
-	float: right;
-}
+h1 {
+    float: left;
+    text-align: left;
+    height: 12px;
+    line-height: 12px;
+  }
 
+  .top-nav {
+    text-align: right;
+  }
+}
 .marketing {
     width: 33%;
     float: left;
