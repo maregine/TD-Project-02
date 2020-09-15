@@ -96,12 +96,26 @@ p {
 
 .footer-nav {
 	background: #d9e4ea;
-	padding: 10px 0;
-	margin: 5px auto;
+	margin-top: 50px;
 }
-.footer-nav, .footer-nav li {
-	width: 100%;
-  }
+
+.footer-nav h2 {
+	float: left;
+	height: 12px;
+	line-height: 12px;
+}
+  ​
+.footer-nav li {
+	display: inline-block;
+}
+
+.footer-nav ul {
+	text-align: right;
+}
+
+.footer-nav li:last-child {
+	margin-right: 0;
+}
 
 .footer-nav a {
 	font-size: .95em;
@@ -177,8 +191,8 @@ h1 {
 }
 	/* ---- Float clearfix ---- */
 
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
