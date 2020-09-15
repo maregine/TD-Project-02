@@ -20,6 +20,11 @@ p {
 	color: darkslategrey;
 }
 
+h1 {
+	font-size: 1.25em;
+	font-family: 'Playfair';
+	float: left;
+}
 
 h2,
 h3 {
@@ -57,12 +62,6 @@ p {
 
 /* ---- Navigation ---- */
 
-.name {
-	font-size: 1.25em;
-	font-family: 'Playfair';
-	float: left;
-	position: relative;
-}
 
 .main-nav a {
 	font-size: .95em;
