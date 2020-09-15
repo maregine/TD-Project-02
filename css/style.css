@@ -1,0 +1,216 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.6;
+	width: 100%;
+	text-align: center;
+	font-family: 'Quicksand', serif;
+	background: rgb(250, 246, 246);
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+	color: darkslategrey;
+}
+
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: 000;
+}
+
+.profile-pic {
+	padding-top: 0;
+	width: auto;
+	height: auto;
+	
+}
+
+img {
+	padding: 10px 10px;
+}
+
+div img,
+p {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    max-width: 80%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+	font-family: 'Playfair';
+	float: left;
+	position: relative;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: darkslategrey;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: orange;
+}
+
+/* ---- Header ---- */
+
+#home img {
+	float: right;
+	width: 30%;
+}
+
+#home p {
+	float: left;
+	width: 60%;
+}
+
+/* ---- Footer ---- */
+
+.contentinfo{
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top. 30px;
+}
+
+.contact-info {
+	margin-top: 50px;
+}
+
+.portfolio {
+	background: #fff;
+	padding-top: 50px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+	.main-header,
+	.name,
+	.main-nav,
+	.main-nav li {
+	display: inline-block;
+	border: none;
+	padding: 5px 5px;
+	margin: 0;
+	text-align: center;
+}
+
+.main-nav {
+	float: right;
+}
+
+.portfolio {
+	background: #fff;
+}
+
+.marketing {
+    width: 50%;
+    float: left;
+ }
+
+ .search {
+    width: 50%;
+    float: right;
+ }
+
+ .travel {
+    width: 50%;
+    float: left;
+ }
+
+ .map {
+    width: 50%;
+    float: right;
+ }
+
+ .gallery {
+    width: 50%;
+    float: left;
+ }
+
+ .calculator {
+    width: 50%;
+    float: right;
+ }
+
+
+@media (min-width: 1024px) {
+	.main-header,
+	.name,
+	.main-nav,
+	.main-nav li {
+	display: inline-block;
+	border: none;
+	padding: 5px 5px;
+	margin: 0;
+	text-align: center;
+}
+
+.main-nav {
+	float: right;
+}
+
+.marketing {
+    width: 33%;
+    float: left;
+ }
+
+ .search {
+    width: 33%;
+    float: right;
+ }
+
+ .travel {
+    width: 33%;
+    float: left;
+ }
+
+ .map {
+    width: 33%;
+    float: right;
+ }
+
+ .gallery {
+    width: 33%;
+    float: left;
+ }
+
+ .calculator {
+    width: 33%;
+    float: right;
+ }
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
