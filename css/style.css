@@ -6,13 +6,11 @@
 	box-sizing: border-box;
 }
 
-
-
 body {
 	line-height: 1.6;
 	width: 100%;
 	text-align: center;
-	font-family: 'Quicksand', serif;
+	font-family: 'Quicksand', 'Playfair', serif;
 	background: rgb(250, 246, 246);
 }
 
@@ -22,10 +20,10 @@ p {
 	color: darkslategrey;
 }
 
-
 h1 a {
 	font-size: 1em;
 	color: darkslategrey;
+	font-family: 'Playfair';
 }
 
 h2,
@@ -69,12 +67,12 @@ p {
 	margin-top: 30px;
   }
   
-  .top-nav li {
+.top-nav li {
 	padding: 10px 0;
 	margin: 5px auto;
   }
   
-  .top-nav a {
+.top-nav a {
 	text-transform: uppercase;
   }
 
@@ -101,7 +99,7 @@ p {
 	float: left;
 	height: 12px;
 	line-height: 12px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
   ​
 .footer-nav li {
@@ -111,6 +109,7 @@ p {
 
 .footer-nav ul {
 	text-align: right;
+	padding-top: 10px;
 }
 
 .footer-nav li:last-child {
@@ -121,6 +120,7 @@ p {
 	font-size: .95em;
 	color: darkslategrey;
 	text-transform: uppercase;
+	margin-left: 20px;
 }
 
 .footer-nav a:hover {
@@ -139,17 +139,15 @@ p {
 }
 
 
-
-
 /* ================================= 
   Media Queries
 ==================================== */
 
 @media (min-width: 768px) {
-	.main-header,
-	.name,
-	.top-nav,
-	.top-nav li {
+.main-header,
+.name,
+.top-nav,
+.top-nav li {
 	display: inline-block;
 	border: none;
 	padding: 5px 5px;
@@ -166,7 +164,7 @@ p {
 	float: left;
   	width: 50%;
   	min-height: 400px;
-	}
+}
 
 .footer-nav .mobile-link {
 	display: none;
@@ -175,16 +173,14 @@ p {
 .footer-nav .tablet-link {
 	display: inline-block;
 }	
-	
+
 }
 
-
-
 @media (min-width: 1024px) {
-	.main-header,
-	.name,
-	.top-nav,
-	.top-nav li {
+.main-header,
+.name,
+.top-nav,
+.top-nav li {
 	display: inline-block;
 	border: none;
 	padding: 5px 5px;
@@ -197,13 +193,13 @@ h1 {
     text-align: left;
     height: 12px;
     line-height: 12px;
-  }
+}
 
-  .top-nav {
+.top-nav {
     text-align: right;
   }
 
-  .portfolio div {
+.portfolio div {
 	width: 33.333%;
   }
 
@@ -212,10 +208,11 @@ h1 {
 }
 
 }
+
 	/* ---- Float clearfix ---- */
 
 .clearfix::after {
 	content: " ";
-		display: table;
+	display: table;
 	clear: both;
 }
