@@ -163,7 +163,17 @@ p {
   	width: 50%;
   	min-height: 400px;
 	}
+
+	.footer-nav .mobile-link {
+		display: none;
+	  }
+	  .footer-nav .tablet-link {
+		display: inline-block;
+	  }	
+	
 }
+
+
 
 @media (min-width: 1024px) {
 	.main-header,
