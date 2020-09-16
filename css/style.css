@@ -177,6 +177,9 @@ p {
 .footer-nav .tablet-link {
 	display: inline-block;
 }	
+.intro section {
+	width: 50%;
+}
 
 }
 
