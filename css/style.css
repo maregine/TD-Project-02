@@ -6,6 +6,8 @@
 	box-sizing: border-box;
 }
 
+
+
 body {
 	line-height: 1.6;
 	width: 100%;
@@ -19,6 +21,7 @@ p {
 	margin-bottom: 1.8em;
 	color: darkslategrey;
 }
+
 
 h1 a {
 	font-size: 1em;
@@ -125,8 +128,9 @@ p {
 }
 
 .footer-nav {
-	background: #d9e4ea;
+	background: rgb(250, 246, 246);
 	margin-top: 50px;
+	border-top: solid 1px slategrey;
 }
 
 .portfolio {
@@ -164,12 +168,13 @@ p {
   	min-height: 400px;
 	}
 
-	.footer-nav .mobile-link {
-		display: none;
-	  }
-	  .footer-nav .tablet-link {
-		display: inline-block;
-	  }	
+.footer-nav .mobile-link {
+	display: none;
+}
+
+.footer-nav .tablet-link {
+	display: inline-block;
+}	
 	
 }
 
@@ -211,6 +216,6 @@ h1 {
 
 .clearfix::after {
 	content: " ";
-	display: table;
+		display: table;
 	clear: both;
 }
