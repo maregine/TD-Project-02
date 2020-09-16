@@ -177,9 +177,15 @@ p {
 .footer-nav .tablet-link {
 	display: inline-block;
 }	
-.intro section {
-	width: 50%;
+
+#home img {
+	width: 100%;
 }
+
+#home p {
+	width: 100%;
+}
+
 
 }
 
