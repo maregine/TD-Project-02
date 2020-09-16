@@ -105,6 +105,7 @@ p {
 .footer-nav li {
 	display: inline-block;
 	margin-right: 20px;
+	line-height: 2.5;
 }
 
 .footer-nav ul {
@@ -131,6 +132,9 @@ p {
 	background: rgb(250, 246, 246);
 	margin-top: 50px;
 	border-top: solid 1px slategrey;
+}
+.footer-nav .tablet-link {
+	display: none;
 }
 
 .portfolio {
